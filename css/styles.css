@@ -1,0 +1,97 @@
+body{
+    font-size: 0.9rem;
+}
+
+
+h1{
+    font-size: 2.5rem;
+    margin-bottom: 2vh;
+}
+.left-div{
+    padding: 5% 12% 0;
+}
+.right-div{
+    padding: 0%;
+}
+
+.login-page-img{
+    width: 100%;
+}
+
+.logo{
+    margin-bottom: 4vh;
+    width: 25%;
+}
+
+.btn{
+    text-align: center;
+    border-radius: 40px;
+    width: 100%;
+}
+
+.google-signin-btn{
+    margin: 3vh auto 2vh;
+}
+
+.fa-google {
+    background: conic-gradient(from -45deg, #ea4335 110deg, #4285f4 90deg 180deg, #34a853 180deg 270deg, #fbbc05 270deg) 73% 55%/150% 150% no-repeat;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+    margin-right: 0.8rem;
+  }
+
+
+hrtext {
+    display: flex;
+    color: #cccccc;
+    flex-direction: row;
+}
+  
+hrtext:before,
+hrtext:after {
+    content: "";
+    flex: 1 1;
+    border-bottom: 2px solid #cccccc;
+    margin: auto;
+}
+.hrtxt{
+    padding: 3vh 1vw;
+}
+
+
+label.form-label, label.form-check-label{
+    font-weight: bold;
+    margin-top: 0.8vh;
+}
+.form-control{
+    border-radius: 40px;
+}
+
+.inline-field input,
+.inline-field label {
+  display: inline;
+  margin-bottom: 0; /* I added this after I posted my reply */
+  vertical-align: middle; /* Fixes any weird issues in Firefox and IE */
+}
+
+.rm-fp{
+    display: inline-block;
+    width:48%;
+    
+}
+
+.fpw-span{
+    text-align: right;
+}
+
+a{
+    font-weight: bold;
+    text-decoration: none;
+    color: #3333ff;
+}
+
+.login-btn{
+    margin: 1.4vh auto 2vh;
+}
